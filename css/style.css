@@ -6,6 +6,15 @@
 .pad{
     padding: 0.3rem;
 }
+/***RESPONSIVE***/
+.hei{height: 7em;}
+.gray{background-color: slategray;}
+.white{background-color: white;}
+
+
+
+
+
 /***PUMPKIN***/
 .eye{
     background-color: yellow;
