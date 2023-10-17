@@ -1,22 +1,20 @@
 @media screen and (max-width: 576px){
     /***LAYOUT***/
 }
-
-
-
-
-
 @media screen and (min-width: 576px) and (max-width: 768px) {   
-    .col-4{
-        flex-basis: calc((100% / 12) *6);
-        min-width: calc((100% / 12) *6);
+    .col-6M{
+        flex-basis: calc((100% / 12) * 6);
+        max-width: calc((100% / 12) * 6);
         background-color: slateblue;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    .col-4{
+    .col-3L{
         flex-basis: calc((100% / 12) *3);
         max-width: calc((100% / 12) *3);
     }
+}
+@media screen and (min-width: 992px) {
+    
 }
